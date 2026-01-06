@@ -1,7 +1,6 @@
 {
   "name": "react-vite-pnpm",
   "image": "node:20",
-  "postCreateCommand": "npm i",
   "forwardPorts": [5173],
   "customizations": {
     "vscode": {
