@@ -1,13 +1,17 @@
 {
-  "name": "react-vite-pnpm",
+  "name": "react-vite-devcontainer",
   "image": "node:20",
   "forwardPorts": [5173],
+  "postCreateCommand": "apt-get update && apt-get install -y tree",
   "customizations": {
     "vscode": {
       "extensions": [
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "dsznajder.es7-react-js-snippets"
+        "dsznajder.es7-react-js-snippets",
+        "albert.TabOut",
+        "github.copilot",
+        "github.copilot-chat"
       ]
     }
   }
